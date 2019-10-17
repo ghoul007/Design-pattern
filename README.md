@@ -28,3 +28,7 @@ What problems can the Proxy design pattern solve?
 - When accessing sensitive objects, for example, it should be possible to check that clients have the needed access rights.
 
 [See more](https://en.wikipedia.org/wiki/Proxy_pattern)
+
+## Singleton
+
+Restricts the instantiation of a class to one "single" instance
