@@ -32,3 +32,9 @@ What problems can the Proxy design pattern solve?
 ## Singleton
 
 Restricts the instantiation of a class to one "single" instance
+
+
+## Adapter
+
+ Is a software design pattern (also known as wrapper, an alternative naming shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code. 
+ [See more](https://en.wikipedia.org/wiki/Adapter_pattern)
