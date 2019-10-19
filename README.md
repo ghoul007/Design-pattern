@@ -53,3 +53,7 @@ The Adapter pattern is used to be an adapter/bridge between classes. The intent 
 ## Facade
 
 Facade defines a higher-level interface (more complex body) that make the subsystems easier to use and consume.
+
+## Strategy
+
+Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
