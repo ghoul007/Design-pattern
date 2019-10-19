@@ -35,9 +35,8 @@ Restricts the instantiation of a class to one "single" instance
 
 
 ## Factory
-
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
-----
+ 
 When to use
 * You can't know the type of object you want to create until runtime.
 * You want to encapsulate the object creation logic if some complexity or business logic takes place, or for easier extraction and modification later on.
@@ -57,3 +56,7 @@ Facade defines a higher-level interface (more complex body) that make the subsys
 ## Strategy
 
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+## Command
+
+Creates objects which encapsulate actions and parameters.
