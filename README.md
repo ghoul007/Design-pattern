@@ -48,3 +48,8 @@ The Adapter pattern is used to be an adapter/bridge between classes. The intent 
 * If we want to use an existing library that has an interface different than our code requires.
 * If we want to easily change the existing libraries or have more than one used in the code, so we can define one Adapter interface, and adapt any number of different libraries in the different Adapter classes (Open / Closed Principle).
 * not to change your existing classes, but add an adapter so that the classes remain the same
+
+
+## Facade
+
+Facade defines a higher-level interface (more complex body) that make the subsystems easier to use and consume.
