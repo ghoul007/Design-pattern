@@ -68,3 +68,6 @@ Creates objects which encapsulate actions and parameters.
 
  ## Decorator
  Attach additional responsibilities to an object dynamically. Also provides a flexible alternative to subclassing for extending functionality.
+
+ ## Template
+ Define the skeleton of an algorithm, but deferring some steps to subclasses without changing the algorithm's structure.
