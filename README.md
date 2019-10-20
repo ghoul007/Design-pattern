@@ -62,4 +62,9 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 Creates objects which encapsulate actions and parameters.
 
 ## State
+
  where an object has a few states that can interchange at anytime, and the object behaves differently according to each state.
+
+
+ ## Decorator
+ Attach additional responsibilities to an object dynamically. Also provides a flexible alternative to subclassing for extending functionality.

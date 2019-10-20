@@ -5,16 +5,13 @@ interface State {
 
 class Computer {
     state: State;
-
     action() {
         this.state.action(this);
     }
-
     setAction(state: State) {
         this.state = state
     }
 }
-
 
 class Start implements State {
     action(com: Computer): void {
@@ -28,21 +25,20 @@ class Stop implements State {
         console.log("Stop computer")
         com.setAction(this);
     }
-    
 }
+
 
 class Sleep implements State {
     action(com: Computer): void {
         console.log("Sleep computer")
         com.setAction(this);
     }
-
 }
-
 
 
 (function(){
     let computer = new Computer();
+
     computer.state = new Start();
     computer.action();
 
