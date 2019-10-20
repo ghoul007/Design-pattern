@@ -60,3 +60,6 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 ## Command
 
 Creates objects which encapsulate actions and parameters.
+
+## State
+ where an object has a few states that can interchange at anytime, and the object behaves differently according to each state.
